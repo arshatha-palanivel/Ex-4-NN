@@ -139,8 +139,8 @@ m1.fit(training_a, training_b.values.ravel())
 predicted_values = m1.predict(testing_a)
 print(confusion_matrix(testing_b,predicted_values))
 print(classification_report(testing_b,predicted_values))
-```
-```PY
+
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
