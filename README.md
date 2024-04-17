@@ -116,7 +116,6 @@ Normalize our dataset.
 
 <H3>Program:</H3> 
 ```PY
-
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -141,7 +140,6 @@ predicted_values = m1.predict(testing_a)
 print(confusion_matrix(testing_b,predicted_values))
 print(classification_report(testing_b,predicted_values))
 ```
-
 ```PY
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -167,6 +165,7 @@ predicted_values = m1.predict(testing_a)
 print(confusion_matrix(testing_b,predicted_values))
 print(classification_report(testing_b,predicted_values))
 ```
+
 <H3>Output:</H3>
 
 ![image](https://github.com/arshatha-palanivel/Ex-4-NN/assets/118682484/fc3f8909-b8b9-4f19-9ae6-6a09a7e6d816)
