@@ -1,12 +1,12 @@
 
-<H3>ENTER YOUR NAME : ARSHATHA P </H3>
-<H3>ENTER YOUR REGISTER NO : 212222230012 </H3>
-<H3>EX. NO.4</H3>
-<H3>DATE: </H3>
-<H1 ALIGN =CENTER>Implementation of MLP with Backpropagation for Multiclassification</H1>
-<H3>Aim:</H3>
+## ENTER YOUR NAME : ARSHATHA P 
+## ENTER YOUR REGISTER NO : 212222230012 
+## EX. NO.4
+## DATE: 
+# Implementation of MLP with Backpropagation for Multiclassification
+# Aim:
 To implement a Multilayer Perceptron for Multi classification
-<H3>Theory:</H3>
+# Theory:
 
 A multilayer perceptron (MLP) is a feedforward artificial neural network that generates a set of outputs from a set of inputs. An MLP is characterized by several layers of input nodes connected as a directed graph between the input and output layers. MLP uses back propagation for training the network. MLP is a deep learning method.
 A multilayer perceptron is a neural network connecting multiple layers in a directed graph, which means that the signal path through the nodes only goes one way. Each node, apart from the input nodes, has a nonlinear activation function. An MLP uses backpropagation as a supervised learning technique.
@@ -95,7 +95,7 @@ In the backward pass,
 
 ![image](https://user-images.githubusercontent.com/112920679/198814362-05a251fd-fceb-43cd-867b-75e6339d870a.png)
 
-<H3>Algorithm:</H3>
+# Algorithm:
 
 1. Import the necessary libraries of python.
 
@@ -114,7 +114,7 @@ Normalize our dataset.
 
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
 
-<H3>Program:</H3> 
+# Program:
 ```PY
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -166,7 +166,7 @@ print(confusion_matrix(testing_b,predicted_values))
 print(classification_report(testing_b,predicted_values))
 ```
 
-<H3>Output:</H3>
+# Output:
 
 ![image](https://github.com/arshatha-palanivel/Ex-4-NN/assets/118682484/fc3f8909-b8b9-4f19-9ae6-6a09a7e6d816)
 
@@ -176,5 +176,5 @@ print(classification_report(testing_b,predicted_values))
 
 
 
-<H3>Result:</H3>
+# Result:
 Thus, MLP is implemented for multi-classification using python.
